@@ -1,0 +1,41 @@
+body{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 46%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 900px;
+
+    .card{
+        padding: 15px;
+        background: white;
+        width: 300px;
+        border-radius: 15px;
+    
+        &__image{
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        &__title{
+            text-align: center;
+            color: hsl(218, 44%, 22%);
+            padding: 0 20px 0 20px;
+        }
+
+        &__subtitle{
+            text-align: center;
+            color: #b6b6b6;
+            padding: 0 20px 15px 20px;
+        }
+    }
+}
+
+@media (max-width: 375px){
+    body{
+        width: 375px;
+        height: 667px;
+    }
+}
